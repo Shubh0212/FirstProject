@@ -20,6 +20,7 @@ function DetailsScreen({navigation}) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text onPress={()=>navigation.navigate('Home')}>Details Screen</Text>
+      <Text>Hello</Text>
     </View>
   );
 }
