@@ -18,7 +18,7 @@ export default function HomeScreenUpperView({navigation}) {
     <View style={styles.upperContainer}>
       <View style={styles.upperview}>
         <View style={styles.myntraView}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={()=>navigation.openDrawer()}>
             <Image
               source={require('../src/assets/menu.png')}
               style={styles.menustyle}
@@ -101,7 +101,7 @@ export default function HomeScreenUpperView({navigation}) {
           style={styles.searchStyle}
         />
         <TextInput
-          //underlineColorAndroid="transparent"
+         
           placeholder="Search for brands and products"
           style={styles.searchProduct}
         />

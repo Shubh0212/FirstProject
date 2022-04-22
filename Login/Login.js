@@ -42,6 +42,7 @@ export default function Login() {
           <Text style={{alignSelf:'center',fontSize:14,fontWeight:'600',color:'white'}}>LOG IN</Text>
       </View>
       </TouchableOpacity>
+      <Text></Text>
     </SafeAreaView>
   );
 }
